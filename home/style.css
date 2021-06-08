@@ -1,0 +1,34 @@
+body{
+    background-color: #E5E5E5;
+}
+.container{
+background-color:#C3D9CF;
+height: 100%;
+
+}
+
+.column1,.column2{
+        width: 50%;
+        height: 50%;
+        position: fixed;
+        padding: 50px;
+       
+}
+.column1{
+    left: 0;
+    background-color: #C3D9CF;
+
+}
+.column2{
+    right: 0;
+    background-color: #C3D9CF;
+}
+h2{
+    width: 24%;
+    color: #307457;
+    font-family: Jura;
+}
+p{
+    width: 60%;
+}
+
