@@ -1,0 +1,65 @@
+
+h3{
+    /* Section Heading */
+
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 14.94%;
+    text-align: center;
+    font-family:jura;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 54px;
+    line-height: 74px;
+    /* identical to box height, or 137% */
+
+
+    color: #307457;
+}
+ img{
+    position: absolute;
+    width: 191.96px;
+    height: 138.75px;
+    left: 101.28px;
+    top: 160.02px;
+    transform: rotate(-27.29deg);
+}
+
+.micro{
+    position: absolute;
+    left: 10%;
+    right: 6.2%;
+    top: 50%;
+    bottom: 25%;
+
+    font-family: Jura;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+
+
+color: #0F241B;
+
+}
+
+.micro_content{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 60%;
+    bottom: 30%;
+
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+
+    text-align: center;
+
+    color: #0F241B;
+
+}
