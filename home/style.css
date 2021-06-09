@@ -1,5 +1,7 @@
 
-h3{
+
+
+ h3{
     /* Section Heading */
 
     position: absolute;
@@ -12,12 +14,12 @@ h3{
     font-style: normal;
     font-weight: bold;
     font-size: 54px;
-    line-height: 74px;
+    line-height: 74px; */
     /* identical to box height, or 137% */
 
 
     color: #307457;
-}
+} 
  img{
     position: absolute;
     width: 191.96px;
