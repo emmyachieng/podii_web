@@ -6,6 +6,9 @@ background-color:#C3D9CF;
 height: 100%;
 
 }
+table{
+    border-style: none;
+}
 
 .column1,.column2{
         width: 50%;
@@ -30,5 +33,14 @@ h2{
 }
 p{
     width: 60%;
+    color:  #0F241B;
+
 }
+#header{
+    font-weight: 600;
+    color: #0F241B;
+    ;
+    
+}
+
 
