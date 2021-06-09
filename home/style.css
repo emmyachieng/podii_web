@@ -1,0 +1,96 @@
+  *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    margin: 3rem;
+    background: #F4FBF8;
+
+}
+.nav .icon{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+
+.nav .nav-link{
+    color: #0F241B;
+    flex: 1;
+
+
+}
+.nav .nav-link ul{
+    display: flex;
+    
+}
+
+
+.nav .nav-link li {
+    list-style: none;
+    padding: 0 2rem;
+ 
+}
+
+.nav .nav-link li a{
+    text-decoration: none;
+    color: #0F241B;
+}
+.home .podii{
+    display: flex;
+    align-items: center;
+    background: #F4FBF8;
+
+}
+
+.home .podii .podii-image{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 5rem;
+}
+
+.home .podii .podii2{
+    flex: 1;
+    padding-right: 5rem;
+}
+
+
+.home .podii .podii2 h1{
+    color: #307457;
+    font-size:72px;
+    font-weight: 700;
+
+}
+
+.home .podii .podii2 h5{
+    color: #FF5E0E;
+    font-size:14px;
+    font-weight: 400;
+
+}
+
+.home .podii .podii2 p{
+    margin: 2rem 0;
+    line-height:1.6rem ;
+
+}
+.home .podii .podii2 button{
+    padding:0.8rem 1rem;
+    border: none;
+    border-left: 10px solid #FF5E0E;
+}
+.home .podii .podii2 button:hover{
+    background-color: #FF5E0E;
+    color: white;
+}
+
+
+
+
+
+
