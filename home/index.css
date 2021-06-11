@@ -1,0 +1,129 @@
+ *{
+    background: #F4FBF8;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    display: flex;
+    align-items: flex-end;
+    padding: 1rem;
+    margin: 3rem;
+
+}
+.nav .icon{
+    flex: 1;
+    display: flex;
+    padding-bottom: 1rem;
+    padding-left: 11rem;
+    /* justify-content: center; */
+}
+
+
+.nav .nav-link{
+    color: #0F241B;
+    flex: 1;
+
+
+}
+.nav .nav-link ul{
+    display: flex;
+    
+}
+
+
+.nav .nav-link li {
+    list-style: none;
+    padding: 0 2rem;
+    font-family: Forum;
+ 
+}
+
+.nav .nav-link li a{
+    text-decoration: none;
+    color: #0F241B;
+}
+.home .podii{
+    display: flex;
+    align-items: center;
+
+}
+
+.home .podii .podii-image{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 5rem;
+}
+
+.home .podii .podii2{
+    padding-left: 5rem;
+    flex: 1;
+    /* padding-right: 5rem; */
+}
+
+ h3{
+    /* Section Heading */
+
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 14.94%;
+    text-align: center;
+    font-family:jura;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 54px;
+    line-height: 74px; 
+    color: #307457;
+    font-size:70px;
+    font-family: 'Jura', sans-serif;
+
+}
+
+.home .podii .podii2 h5{
+    color: #FF5E0E;
+    font-size:14px;
+    font-weight: 400;
+    font-family: Forum;
+}
+
+.home .podii .podii2 p{
+    margin: 2rem 0;
+    line-height:1.6rem ;
+    font-family: Forum;
+    margin-right:6rem ;
+
+}
+.home .podii .podii2 button{
+    padding:0.8rem 1rem;
+    border: none;
+    border-left: 10px solid #FF5E0E;
+
+}
+.home .podii .podii2 button:hover{
+    background-color: #FF5E0E;
+    color: white;
+    font-weight: 700;
+    font-family: 'Jura', sans-serif;
+}
+
+.micro_content{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 60%;
+    bottom: 30%;
+
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+
+    text-align: center;
+
+    color: #0F241B;
+
+}
