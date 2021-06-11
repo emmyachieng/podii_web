@@ -78,17 +78,28 @@ p{
     padding: 0 2rem;
  
 }
-
-
-
- h3{
-    /* Section Heading */
-
-    position: absolute;
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    bottom: 14.94%;
+/* Featured work (html) -David */
+.work{
+    display:inline-flexbox;
+    flex-direction: column-reverse;
+    flex-flow: row wrap;
+    
+}
+.col {
+    float: left;
+    left:20px;
+    width: 29%;
+    padding: 15px;
+    height: auto;
+}
+.row:after {
+    content: "";
+    padding-right: 0px;
+    padding-left: 0px;
+    display: table;
+    clear:both;
+}
+.row .Fh3{
     text-align: center;
     font-family:jura;
     font-style: normal;
@@ -96,49 +107,59 @@ p{
     font-size: 54px;
     line-height: 74px; 
     color: #307457;
-} 
- img{
-    position: absolute;
-    width: 191.96px;
-    height: 138.75px;
-    left: 101.28px;
-    top: 160.02px;
-    transform: rotate(-27.29deg);
+    margin-bottom: 0px;
 }
-
-.micro{
-    position: absolute;
-    left: 10%;
-    right: 6.2%;
-    top: 50%;
-    bottom: 25%;
-
-    font-family: Jura;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 23px;
-
-
-color: #0F241B;
-
-}
-
-.micro_content{
-    position: absolute;
-    left: 0%;
-    right: 0%;
-    top: 60%;
-    bottom: 30%;
-
+.row .p{
     font-family: Forum;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 25px;
-
     text-align: center;
-
     color: #0F241B;
+    margin-top: 5px;
+}
+.row .PL{
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #FF5E0E;
+}
+.row .img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+}
+.row .h6{
+    text-align: center;
+    font-family: Jura;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    color: #0F241B;
+    margin-bottom: 0px;
+    margin-top: -20px;
+}
+.row .phone{
+    margin-top: 0px;
 
 }
+.row .app{
+    margin-top: 0px;
+}
+.row .comp{
+    margin-top: 30px;
+}
+.row .compp{
+    margin-top: 18px;
+}
+/* end  */
+
+
+
