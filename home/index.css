@@ -1,63 +1,22 @@
-body{
-    background-color: #E5E5E5;
-}
-.container{
-background-color:#C3D9CF;
-height: 100%;
-
-}
-table{
-    border-style: none;
-}
-
-.column1,.column2{
-        width: 50%;
-        height: 70%;
-        position: fixed;
-        padding: 50px;
-       
-}
-.column1{
-    left: 0;
-    background-color: #C3D9CF;
-
-}
-.column2{
-    right: 0;
-    background-color: #C3D9CF;
-}
-h2{
-    width: 24%;
-    color: #307457;
-}
-p{
-    width: 60%;
-    color:  #0F241B;
-
-}
-#header{
-    font-weight: 600;
-    color: #0F241B;
-    ;
-    
-}
-  *{
+ *{
+    background: #F4FBF8;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 .nav{
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     padding: 1rem;
     margin: 3rem;
-    background: #F4FBF8;
 
 }
 .nav .icon{
     flex: 1;
     display: flex;
-    justify-content: center;
+    padding-bottom: 1rem;
+    padding-left: 11rem;
+    /* justify-content: center; */
 }
 
 
@@ -76,7 +35,35 @@ p{
 .nav .nav-link li {
     list-style: none;
     padding: 0 2rem;
+    font-family: Forum;
  
+}
+
+.home .podii .podii2 h5{
+    color: #FF5E0E;
+    font-size:14px;
+    font-weight: 400;
+    font-family: Forum;
+}
+
+.home .podii .podii2 p{
+    margin: 2rem 0;
+    line-height:1.6rem ;
+    font-family: Forum;
+    margin-right:6rem ;
+
+}
+.home .podii .podii2 button{
+    padding:0.8rem 1rem;
+    border: none;
+    border-left: 10px solid #FF5E0E;
+
+}
+.home .podii .podii2 button:hover{
+    background-color: #FF5E0E;
+    color: white;
+    font-weight: 700;
+    font-family: 'Jura', sans-serif;
 }
 /* Featured work (html) -David */
 .work{
@@ -159,7 +146,7 @@ p{
 .row .compp{
     margin-top: 18px;
 }
-/* end  */
+
 
 
 
