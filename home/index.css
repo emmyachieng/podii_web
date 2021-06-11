@@ -62,8 +62,20 @@
     /* padding-right: 5rem; */
 }
 
+ h3{
+    /* Section Heading */
 
-.home .podii .podii2 h1{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 14.94%;
+    text-align: center;
+    font-family:jura;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 54px;
+    line-height: 74px; 
     color: #307457;
     font-size:70px;
     font-family: 'Jura', sans-serif;
@@ -97,8 +109,21 @@
     font-family: 'Jura', sans-serif;
 }
 
+.micro_content{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 60%;
+    bottom: 30%;
 
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
 
+    text-align: center;
 
+    color: #0F241B;
 
-
+}
