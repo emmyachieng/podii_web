@@ -1,17 +1,18 @@
- *{
-    background: #F4FBF8;
+ /* Section one */
+ .home{
+    background: #ebfcf4;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-.nav{
+.home .nav{
     display: flex;
     align-items: flex-end;
     padding: 1rem;
     margin: 3rem;
 
 }
-.nav .icon{
+.home .nav .icon{
     flex: 1;
     display: flex;
     padding-bottom: 1rem;
@@ -20,23 +21,53 @@
 }
 
 
-.nav .nav-link{
+.home .nav .nav-link{
     color: #0F241B;
     flex: 1;
 
 
 }
-.nav .nav-link ul{
+.home .nav .nav-link ul{
     display: flex;
     
 }
 
 
-.nav .nav-link li {
+.home .nav .nav-link li {
     list-style: none;
     padding: 0 2rem;
     font-family: Forum;
  
+}
+
+.home .nav .nav-link li a{
+    text-decoration: none;
+    color: #0F241B;
+}
+.home .podii{
+    display: flex;
+    align-items: center;
+
+}
+
+.home .podii .podii-image{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 5rem;
+}
+
+.home .podii .podii2{
+    padding-left: 5rem;
+    flex: 1;
+    /* padding-right: 5rem; */
+}
+
+.home .podii .podii2 h1{
+    color: #307457;
+    font-size:72px;
+    font-weight: 700;
+    font-family: Forum;
 }
 
 .home .podii .podii2 h5{
@@ -65,14 +96,6 @@
     font-weight: 700;
     font-family: 'Jura', sans-serif;
 }
-<<<<<<< Updated upstream
-/* Featured work (html) -David */
-.work{
-    display:inline-flexbox;
-    flex-direction: column-reverse;
-    flex-flow: row wrap;
-=======
-/* Section one */
 
 /* our appraoch to work */
 #container{
@@ -80,73 +103,12 @@
     margin: 0;
     padding: 0;
     height: 100%;
->>>>>>> Stashed changes
-    
 }
-.col {
-    float: left;
-    left:20px;
-    width: 29%;
-    padding: 15px;
-    height: auto;
-}
-.row:after {
-    content: "";
-    padding-right: 0px;
-    padding-left: 0px;
-    display: table;
-    clear:both;
-}
-.row .Fh3{
-    text-align: center;
-    font-family:jura;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 54px;
-    line-height: 74px; 
-    color: #307457;
-    margin-bottom: 0px;
-}
-.row .p{
-    font-family: Forum;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 25px;
-    text-align: center;
-    color: #0F241B;
-    margin-top: 5px;
-}
-.row .PL{
-    font-family: Forum;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 2px;
-    text-align: center;
-    color: #FF5E0E;
-}
-.row .img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 0px;
-}
-.row .h6{
-    text-align: center;
-    font-family: Jura;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 23px;
-    color: #0F241B;
-    margin-bottom: 0px;
-    margin-top: -20px;
-}
-.row .phone{
-    margin-top: 0px;
 
+#column1{   
+float: left;
+width: 50%;
+ 
 }
 #header1{
 width: 70%;
@@ -159,7 +121,6 @@ letter-spacing: 0em;
 text-align: left;
 color: #307457;
 font-family: Jura;
-
 }
 img{
 padding-left: 200px;
@@ -200,6 +161,7 @@ max-width: 100%;
 height: auto;
 }
 /* our appraoch to work */
+
 /* Featured work (html) -David */
 .work{
     display:inline-flexbox;
@@ -281,3 +243,4 @@ height: auto;
 .row .compp{
     margin-top: 18px;
 }
+/* end --featured work */
