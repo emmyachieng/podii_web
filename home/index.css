@@ -162,6 +162,7 @@
     margin: 0;
     padding: 0;
     height: 100%;
+    
 
 }
 
@@ -215,13 +216,14 @@ line-height: 25px;
 text-align: left;
 letter-spacing: 0cm;
 font-family: Forum;
-} */
+}
 #image{
 padding-right: 40px;
 max-width: 100%;
 height: auto;
 padding-left: 150px;
 }
+
 /* our appraoch to work */
 
 /* Featured work (html) -David */
@@ -350,6 +352,8 @@ padding-left: 150px;
     background: #FF5E0E;
     border-radius: 0px 4px 4px 0px;
 }
+
+/* lets create together css */
 
 /* footer css */
 
