@@ -1,4 +1,8 @@
  /* Section one */
+ *{
+    margin: 0;
+    padding: 0;
+ }
  .home{
     background: #ebfcf4;
     box-sizing: border-box;
@@ -88,6 +92,8 @@
     padding:0.8rem 1rem;
     border: none;
     border-left: 10px solid #FF5E0E;
+    transition: 1s;
+    border-radius: 5px;
 
 }
 .home .podii .podii2 button:hover{
