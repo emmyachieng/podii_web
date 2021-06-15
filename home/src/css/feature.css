@@ -1,0 +1,84 @@
+/* Featured work (html) -David */
+.work{
+    display:inline-flexbox;
+    flex-direction: column-reverse;
+    flex-flow: row wrap;
+    
+}
+.col {
+    float: left;
+    left:20px;
+    width: 29%;
+    padding: 15px;
+    height: auto;
+}
+.row:after {
+    content: "";
+    padding-right: 0px;
+    padding-left: 0px;
+    display: table;
+    clear:both;
+}
+.row .Fh3{
+    text-align: center;
+    font-family:jura;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 54px;
+    line-height: 74px; 
+    color: #307457;
+    margin-bottom: 0px;
+}
+.row .col .p{
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    color: #0F241B;
+    margin-top: 5px;
+   
+}
+.row .PL{
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #FF5E0E;
+}
+.row .img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+}
+.row .h6{
+    text-align: center;
+    font-family: Jura;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    color: #0F241B;
+    margin-bottom: 0px;
+    margin-top: -20px;
+}
+.row .phone{
+    margin-top: 0px;
+
+}
+.row .app{
+    margin-top: 0px;
+}
+.row .comp{
+    margin-top: 30px;
+}
+.row .compp{
+    margin-top: 18px;
+    padding-left: -15px;
+}
+/* end --featured work */
