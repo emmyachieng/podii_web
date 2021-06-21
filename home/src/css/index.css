@@ -1,60 +1,54 @@
-/* styling services section */
-.body {
-	font-family: Jura;
-  margin: 0 auto;
-}
 
-.html {
-	box-sizing: border-box;
-}
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-			
-/* CSS property for service section */
-.services {
+/* ===========styling services section==================== */
+.columns{
+    display: flex;
+    flex-direction: row;
+  }
+
+
+  .columnA{
+	padding-left: 200px;
+    width: 30%;
+    
+  }
+  
+  .columnB{
+    width: 30%;
+     padding-left: 200px; 
+  }
+
+
+#services {
 	color:#307457;
-	padding: 10px;
 	text-align: center;
 	font-family: Jura;
+   	font-weight: 700;
+   	line-height: 60px;
+	
 }
-.h2{
-	 color: #307457;
-	 padding-left: 300px;
-   font-size: 54px;
-   font-weight: 700;
-   line-height: 60px;
-   text-align: center;
-   font-family: Jura;
-}			
-			
-/* CSS property for content section */
-.columnA, .columnB {
-  float: left;
-	width: 30%;
-	padding: 30px;
-	text-align:left;
+
+#sidehead{
+	font-family: Jura;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 23px;
+	letter-spacing: 0em;
+	text-align: left;
 	color: #0F241B;
-	font-size: 2;
 
 }
-.columnA{
-	padding-left: 200px;
+#message{
+	font-family: Forum;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 25px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #0F241B;
+
 }
 
-			
-			
-/* Media query to set website layout
-according to screen size */
-@media screen and (max-width:600px) {
-	.columnA, .columnB {
-		width: 100%;
-		display: block;
-				}
-}
-@media screen and (max-width:400px) {
-	.columnA, .columnB {
-		width: 100%;
-				}
-}
-/* end of styling */
+/* ===========styling services section==================== */
+
